@@ -50,7 +50,7 @@ AddEventHandler('aircraftHeist:collected', function()
     local _source = source
     --print("package has been collected and setting complete to true")
     local user_id = vRP.getUserId({_source})
-    local idnames = Config.db_names
+    local idnames = Config.item_names
     for k, v in pairs(idnames) do
         idname = v
         amount = math.random(10,20)

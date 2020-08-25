@@ -13,7 +13,7 @@ Config.pickupLocs = {
 	Six = {x = 3074.33, y = -4800.07, z = 6.08}
 }
 
-Config.db_names = {
+Config.item_names = {
 	['meth'] = 'meth',
 	['heroine'] = 'heroine',
 	['cocaine'] = 'cocaine'
